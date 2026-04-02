@@ -1,0 +1,6 @@
+kaggle==1.7.4.5
+tensorflow==2.21.0
+scikit-learn==1.7.2
+matplotlib==3.10.8
+pillow==12.2.0
+lxml==6.0.2
