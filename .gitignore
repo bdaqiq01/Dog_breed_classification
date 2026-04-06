@@ -1,5 +1,6 @@
 # Virtual environment
 env/
+venv/
 
 # Dataset
 data/
@@ -24,3 +25,6 @@ Thumbs.db
 
 # Environment variables
 .env
+
+# Kaggle credentials (never commit personal API keys)
+**/kaggle.json

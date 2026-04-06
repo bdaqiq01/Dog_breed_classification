@@ -48,3 +48,16 @@ This is already present in the repo's `.gitignore`, so no action is needed if yo
 ```bash
 jupyter notebook model_develpment.ipynb
 ```
+
+### 5. Kaggle credentials (team-safe setup)
+
+This project uses Kaggle to download the Stanford Dogs dataset. Do **not** share or commit API keys.
+Each teammate should set up their own local credentials:
+
+```bash
+mkdir -p ~/.kaggle
+# place your personal kaggle.json at ~/.kaggle/kaggle.json
+chmod 600 ~/.kaggle/kaggle.json
+```
+
+Then run the notebook download cell again.
