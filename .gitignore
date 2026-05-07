@@ -15,6 +15,9 @@ build/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Ultralytics / local tool cache (YOLO_CONFIG_DIR points here)
+.cache/
+
 # IDE
 .vscode/
 .idea/
